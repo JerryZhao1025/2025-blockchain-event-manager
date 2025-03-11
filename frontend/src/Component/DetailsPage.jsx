@@ -22,7 +22,7 @@ import { mainListItems } from './listItems';
 // import Deposits from './Deposits';
 
 import { useParams } from 'react-router-dom'
-import HandleParticipants from './HandleParticipants';
+// import HandleParticipants from './HandleParticipants';
 
 // function Copyright(props) {
 //   return (
@@ -160,11 +160,11 @@ function DashboardContent() {
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                  <HandleParticipants id={id}/>
+                  {/* <HandleParticipants id={id}/> */}
                 </Paper>
               </Grid>
             </Grid>
-            <Copyright sx={{ pt: 4 }} />
+            {/* <Copyright sx={{ pt: 4 }} /> */}
           </Container>
         </Box>
       </Box>
